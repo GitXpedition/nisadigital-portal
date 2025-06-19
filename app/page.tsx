@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex place-items-center gap-2 p-8 lg:p-0">
             <TranslatedText translationKey="attribution_by" />{' '}
             <Image
-              src="/catalogic_isologo.png"
+              src="/logo3.png"
               alt="Logo inferior"
               className="dark:invert"
               width={100}
