@@ -17,7 +17,7 @@ i18n
           page_status: "Puesta a Punto del Portal",
           attribution_by: "Por",
           pillar1_title: "Somos Competitivos Para Modernizar su Infraestructura",
-          pillar1_subtitle: "Los procesos de negocio se caracterizan por ser la llave maestra con la que las organizaciones respondenn Nisa Digital eleva en tiempo y forma el reperfilado informatico de su organización. ",
+          pillar1_subtitle: "Nuestras propuestas elevan en tiempo y forma el perfil informatico de su organización. ",
           pillar2_title: "Lo complejo se vuelve simple",
           pillar2_subtitle: "Datos clasificados en su escala correcta aseguran la navegación intuitiva.",
           pillar3_title: "Lo esencial, finalmente visible",
