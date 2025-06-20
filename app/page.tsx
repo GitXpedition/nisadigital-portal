@@ -59,14 +59,8 @@ export default function Home() {
         />
       </div>
 
-      {/* Cambio realizado:
-        - Se eliminaron las columnas 2, 3 y 4.
-        - El div contenedor ahora usa 'flex' y 'justify-center' para centrar el 
-          elemento hijo sin cambiar su tamaño. Las clases de alineación de texto
-          originales ('text-center lg:text-left') se mantienen para que el
-          comportamiento dentro del recuadro sea idéntico al anterior.
-      */}
-      <div className="mb-32 flex justify-center text-center lg:text-left lg:max-w-5xl lg:w-full lg:mb-0 -mt-16">
+      {/* El div de abajo es el único modificado para lograr el objetivo final */}
+      <div className="relative bottom-16 mb-32 flex justify-center text-center lg:text-left lg:max-w-5xl lg:w-full lg:mb-0">
         <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className={`mb-3 text-2xl font-semibold`}>
             <TranslatedText translationKey="pillar1_title" />{' '}
