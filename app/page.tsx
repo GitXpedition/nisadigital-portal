@@ -39,7 +39,7 @@ export default function Home() {
             <Image
               src="/logo3.png"
               alt="Logo inferior"
-              className="dark:invert"
+              className=""
               width={100}
               height={24}
               priority
