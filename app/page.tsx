@@ -59,40 +59,13 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-1 lg:text-left">
         <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
           <h2 className={`mb-3 text-2xl font-semibold`}>
             <TranslatedText translationKey="pillar1_title" />{' '}
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             <TranslatedText translationKey="pillar1_subtitle" />
-          </p>
-        </div>
-
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            <TranslatedText translationKey="pillar2_title" />{' '}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            <TranslatedText translationKey="pillar2_subtitle" />
-          </p>
-        </div>
-
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            <TranslatedText translationKey="pillar3_title" />{' '}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            <TranslatedText translationKey="pillar3_subtitle" />
-          </p>
-        </div>
-
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            <TranslatedText translationKey="pillar4_title" />{' '}
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            <TranslatedText translationKey="pillar4_subtitle" />
           </p>
         </div>
       </div>
