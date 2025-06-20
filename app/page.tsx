@@ -65,7 +65,7 @@ export default function Home() {
           <h2 className={`mb-3 text-2xl font-semibold`}>
             <TranslatedText translationKey="pillar1_title" />{' '}
           </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          <p className={`m-0 max-w-[45ch] text-sm opacity-50`}>
             <TranslatedText translationKey="pillar1_subtitle" />
           </p>
         </div>
